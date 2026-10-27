@@ -5,15 +5,15 @@ export default [
   {
     rules: {
       'no-unused-vars': 'warn',
-      'no-undef': 'warn'
+      'no-undef': 'warn',
     },
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
       globals: {
         process: 'readonly',
-        console: 'readonly'
-      }
-    }
-  }
+        console: 'readonly',
+      },
+    },
+  },
 ];
