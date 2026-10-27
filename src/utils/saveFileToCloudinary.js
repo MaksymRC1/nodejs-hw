@@ -14,6 +14,8 @@ export const saveFileToCloudinary = (buffer, userId) => {
   return new Promise((resolve, reject) => {
     const options = {
       folder: 'avatars',
+      resource_type: 'image',
+      unique_filename: false,
       overwrite: true,
     };
     if (userId) {
